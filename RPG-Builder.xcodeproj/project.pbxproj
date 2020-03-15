@@ -13,6 +13,7 @@
 		8AD8ED12241EE81600AF2285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD8ED11241EE81600AF2285 /* Assets.xcassets */; };
 		8AD8ED15241EE81600AF2285 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD8ED14241EE81600AF2285 /* Preview Assets.xcassets */; };
 		8AD8ED18241EE81600AF2285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD8ED16241EE81600AF2285 /* LaunchScreen.storyboard */; };
+		8AD8ED21241EEA5100AF2285 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8ED20241EEA5100AF2285 /* Sound.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8AD8ED14241EE81600AF2285 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8AD8ED17241EE81600AF2285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AD8ED19241EE81600AF2285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD8ED20241EEA5100AF2285 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		8AD8ED0A241EE81300AF2285 /* RPG-Builder */ = {
 			isa = PBXGroup;
 			children = (
+				8AD8ED1F241EEA4800AF2285 /* Model */,
 				8AD8ED0B241EE81300AF2285 /* AppDelegate.swift */,
 				8AD8ED0D241EE81300AF2285 /* SceneDelegate.swift */,
 				8AD8ED0F241EE81300AF2285 /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				8AD8ED14241EE81600AF2285 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AD8ED1F241EEA4800AF2285 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AD8ED20241EEA5100AF2285 /* Sound.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				8AD8ED0C241EE81300AF2285 /* AppDelegate.swift in Sources */,
 				8AD8ED0E241EE81300AF2285 /* SceneDelegate.swift in Sources */,
 				8AD8ED10241EE81300AF2285 /* ContentView.swift in Sources */,
+				8AD8ED21241EEA5100AF2285 /* Sound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
