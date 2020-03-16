@@ -14,6 +14,7 @@
 		8AD8ED15241EE81600AF2285 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD8ED14241EE81600AF2285 /* Preview Assets.xcassets */; };
 		8AD8ED18241EE81600AF2285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AD8ED16241EE81600AF2285 /* LaunchScreen.storyboard */; };
 		8AD8ED21241EEA5100AF2285 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8ED20241EEA5100AF2285 /* Sound.swift */; };
+		8AD8ED23241EF17E00AF2285 /* SoundThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8ED22241EF17E00AF2285 /* SoundThumbnail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8AD8ED17241EE81600AF2285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AD8ED19241EE81600AF2285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AD8ED20241EEA5100AF2285 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		8AD8ED22241EF17E00AF2285 /* SoundThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundThumbnail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8AD8ED0B241EE81300AF2285 /* AppDelegate.swift */,
 				8AD8ED0D241EE81300AF2285 /* SceneDelegate.swift */,
 				8AD8ED0F241EE81300AF2285 /* ContentView.swift */,
+				8AD8ED22241EF17E00AF2285 /* SoundThumbnail.swift */,
 				8AD8ED11241EE81600AF2285 /* Assets.xcassets */,
 				8AD8ED16241EE81600AF2285 /* LaunchScreen.storyboard */,
 				8AD8ED19241EE81600AF2285 /* Info.plist */,
@@ -161,6 +164,7 @@
 				8AD8ED0E241EE81300AF2285 /* SceneDelegate.swift in Sources */,
 				8AD8ED10241EE81300AF2285 /* ContentView.swift in Sources */,
 				8AD8ED21241EEA5100AF2285 /* Sound.swift in Sources */,
+				8AD8ED23241EF17E00AF2285 /* SoundThumbnail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

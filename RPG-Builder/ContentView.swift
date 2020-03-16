@@ -28,12 +28,17 @@ struct ContentView: View {
                                     ForEach(sounds.filter {
                                         $0.category == category
                                     }) { sound in
-                                        Text("XD")
+                                        SoundThumbnail(sound: sound)
+                                            .padding(.bottom, 40)
+                                            .padding(.horizontal, 10)
+                                            .padding(.leading, 10)
                                     }
                                 }
+                                .frame(maxWidth: .infinity)
                             }
                         }
                     }
+                    .listRowInsets(EdgeInsets())
                 }
                 .navigationBarTitle(Text("Your Sounds"))
                 
