@@ -10,7 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let categories = sounds
+    private let audioManager: AudioManager
+    
+    init(audioManager: AudioManager = AudioManager()) {
+        self.audioManager = audioManager
+    }
+    
+    private let categories = sounds
         .map { $0.category }
         .removingDuplicates()
     
@@ -32,6 +38,13 @@ struct ContentView: View {
                                             .padding(.bottom, 40)
                                             .padding(.horizontal, 10)
                                             .padding(.leading, 10)
+                                            .onTapGesture {
+                                                do {
+                                                  try self.audioManager.play(sound: .testSound)
+                                                } catch let error {
+                                                    print(error.localizedDescription)
+                                                }
+                                        }
                                     }
                                 }
                                 .frame(maxWidth: .infinity)
