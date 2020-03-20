@@ -54,3 +54,7 @@ let sounds: [Sound] = [
     Sound(name: "Beer drinking", tags: [.food], categoryType: .tavern),
     Sound(name: "Drunk man", tags: [.human], categoryType: .tavern, isFavourite: true)
 ]
+
+let tavernSounds = sounds.filter {
+    $0.categoryType == .tavern
+}
