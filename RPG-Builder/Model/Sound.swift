@@ -52,7 +52,8 @@ let categories: [Category] = [Category(categoryType: .tavern, description: "Here
 
 let sounds: [Sound] = [
     Sound(name: "Beer drinking", tags: [.food], categoryType: .tavern),
-    Sound(name: "Drunk man", tags: [.human], categoryType: .tavern, isFavourite: true)
+    Sound(name: "Drunk man", tags: [.human], categoryType: .tavern, isFavourite: true),
+    Sound(name: "Fight", tags: [.human], categoryType: .tavern, isFavourite: true)
 ]
 
 let tavernSounds = sounds.filter {
