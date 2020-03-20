@@ -32,30 +32,8 @@ struct SoundView: View {
             }
             Spacer()
             VStack(spacing: 20) {
-                Image(systemName: sound.isFavourite ? "heart.fill" : "heart")
-                    .font(.system(size: 36, weight: .semibold))
-                    .foregroundColor(sound.isFavourite ? Color.pink : iconColor)
-                    .scaleEffect(currentHeartScale)
-                    .animation(.spring())
-                    .onTapGesture {
-                        self.sound.isFavourite.toggle()
-                        self.currentHeartScale = 1.2
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                            self.currentHeartScale = 1.0
-                        }
-                    }
-                Image(systemName: "goforward")
-                    .font(.system(size: 36, weight: .semibold))
-                    .foregroundColor(sound.isLooping ? Color.blue : iconColor)
-                    .scaleEffect(currentRepeatScale)
-                    .animation(.spring())
-                    .onTapGesture {
-                        self.sound.isLooping.toggle()
-                        self.currentRepeatScale = 1.2
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
-                            self.currentRepeatScale = 1.0
-                        }
-                }
+                SoundOption(soundOptions: .heart, isActive: $sound.isFavourite)
+                SoundOption(soundOptions: .repeat, isActive: $sound.isLooping)
             }
         }
         .padding(.vertical, 12)
