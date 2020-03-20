@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A802D6924254A6500495909 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A802D6824254A6500495909 /* CategoryView.swift */; };
 		8A802D6B2425558400495909 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A802D6A2425558400495909 /* TagView.swift */; };
+		8A802D6D24255D4100495909 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A802D6C24255D4100495909 /* SoundView.swift */; };
 		8AD8ED0C241EE81300AF2285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8ED0B241EE81300AF2285 /* AppDelegate.swift */; };
 		8AD8ED0E241EE81300AF2285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8ED0D241EE81300AF2285 /* SceneDelegate.swift */; };
 		8AD8ED10241EE81300AF2285 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8ED0F241EE81300AF2285 /* CategoriesView.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		8A802D6824254A6500495909 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		8A802D6A2425558400495909 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		8A802D6C24255D4100495909 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
 		8AD8ED08241EE81300AF2285 /* RPG-SFX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RPG-SFX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD8ED0B241EE81300AF2285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AD8ED0D241EE81300AF2285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				8A802D6824254A6500495909 /* CategoryView.swift */,
 				8A802D6A2425558400495909 /* TagView.swift */,
+				8A802D6C24255D4100495909 /* SoundView.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				8AD8ED10241EE81300AF2285 /* CategoriesView.swift in Sources */,
 				8AD8ED21241EEA5100AF2285 /* Sound.swift in Sources */,
 				8AD8ED23241EF17E00AF2285 /* SoundThumbnail.swift in Sources */,
+				8A802D6D24255D4100495909 /* SoundView.swift in Sources */,
 				8A802D6B2425558400495909 /* TagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

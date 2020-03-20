@@ -50,4 +50,7 @@ struct Category: Codable, Hashable, Identifiable {
 
 let categories: [Category] = [Category(categoryType: .tavern, description: "Here you can play sounds from tavern. Singing, drinking and dancing that’s what You might encounter while drinking before you quest.", tags: [.building], imageName: "tavern")]
 
-let sounds: [Sound] = [Sound(name: "Beer drinking", tags: [.food], categoryType: .tavern)]
+let sounds: [Sound] = [
+    Sound(name: "Beer drinking", tags: [.food], categoryType: .tavern),
+    Sound(name: "Drunk man", tags: [.human], categoryType: .tavern, isFavourite: true)
+]
