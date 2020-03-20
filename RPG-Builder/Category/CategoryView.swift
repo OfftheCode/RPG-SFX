@@ -21,12 +21,17 @@ struct CategoryView: View {
             .shadow(radius: 30)
             .offset(y: -50)
             
-            HStack {
+            HStack(alignment: .center) {
                 Text(category.title)
                 .font(.custom(fontName, size: 48))
                 .bold()
                 .foregroundColor(Color(#colorLiteral(red: 0.3190939724, green: 0.3191022575, blue: 0.3190978169, alpha: 1)))
                 .padding(.leading, leftPadding)
+                
+                ForEach(category.tags.prefix(2), id: \.self) { tag in
+                    TagView(tag: tag)
+                    .offset(y: 5) // visually better aligned
+                }
             }
             
             Text("\(category.description)")
