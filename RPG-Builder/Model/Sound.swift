@@ -21,6 +21,10 @@ enum Tag: String, Codable, CaseIterable {
     case food
     case human
     case building
+    
+    var title: String {
+        self.rawValue.capitalized
+    }
 }
 
 
